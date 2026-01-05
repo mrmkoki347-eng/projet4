@@ -55,3 +55,10 @@ The project includes a built-in test runner that reads test cases from `dataset.
 
 3.  **Output:**
     The program will automatically read the inputs from `dataset.txt`, compare the actual output with the expected output, and display a success or failure message for each test case.
+
+
+## 6. Online Demo (Hosting)
+
+To satisfy the requirement "Can we host our algorithm so that it can be used online?", this project is deployed on Replit. You can compile and run the C code directly in your browser without any local setup.
+
+**👉 [Click here to Run on Replit](https://replit.com/@maramkouki/projet4)**
