@@ -1,0 +1,17 @@
+name: C Automated Tests
+
+on: [push]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Récupérer le code (Checkout)
+      uses: actions/checkout@v3
+
+    - name: Compiler le code
+      run: gcc main.c -o my_program
+
+    - name: Lancer les tests
+      run: ./my_program
